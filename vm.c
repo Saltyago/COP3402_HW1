@@ -5,10 +5,7 @@
 #include "regname.h"
 #include "utilities.h"
 #include "machine_types.h"
-#include "instruction.c"
-#include "machine_types.c"
-#include "file_location.c"
-#include "bof.c"
+//the functions in c files should work by extern within the header files so they should be visible and callable.
 #define MEMORY_SIZE_IN_BYTES (65536 - BYTES_PER_WORD)
 #define MEMORY_SIZE_IN_WORDS (MEMORY_SIZE_IN_BYTES / BYTES_PER_WORD)
 
